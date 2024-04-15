@@ -13,6 +13,8 @@ public class KoscheiTheDeathless {
         return "На свете есть океан , " + ocean.toString();
     }
 
+    //связываем кощея с океаном
+    //через сеттер и аннотацию
     @Autowired
     public void setOcean(Ocean1 ocean) {
         this.ocean = ocean;

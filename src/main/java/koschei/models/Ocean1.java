@@ -6,6 +6,8 @@ import org.springframework.stereotype.Component;
 @Component
 public class Ocean1 {
 
+    //связали Ocean с айленд
+    //в config есть метод getIsland()
     @Autowired
     private Island2 island;
 
